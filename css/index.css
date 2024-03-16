@@ -11,6 +11,28 @@
     background-position: center;
     position: relative;
 }
+.socio-links a{ 
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: large;
+}
+/* .socio-links ul{
+    margin: 5px;
+    float: right;
+}
+.socio-links ul li{
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+} */
+.socio-links a:hover{
+    transform: translate(0, -10%);
+    transition: 0.3s;
+    color: aqua;
+}
 .text-box{
     color: #fff;
     position: absolute;
@@ -44,6 +66,10 @@
     font-size: 54px;
     font-weight: 500;
 }
+.text-box a:hover{
+    transition: 0.3s;
+    color: aqua;
+}
 .text-box .row{
     display: flex;
     align-items: center;
@@ -55,7 +81,7 @@
     text-decoration: none;
     padding: 10px 20px;
     margin-right: 20px;
-    border: 2px solid #fff;
+    border: 2px solid aqua;
     display: flex;
     align-items: center;
 
