@@ -20,34 +20,12 @@
     display: inline-block;
     width: auto;
     list-style: outside none none;
-}
-
-/* .lin ul li{
-    list-style: none;
-    margin: 0 15px;
-}
-.lin ul li .fab{
-    font-size: 15px;
-    line-height: 10px;
-    transition: .3s;
-    color: white;
-}
+} 
 .lin ul li a :hover{
     transform: translate(0, -10%);
     color: rgb(96, 25, 117);
 }
-lin{
-    padding: 5px;
-}
-ul{
-    padding: 2px;
- }
-li{
-    display: inline-block;
-    width: auto;
-    list-style: outside none none; */
 
- 
  header{
     background-color: tomato;
     margin-top: 10px;
@@ -60,38 +38,195 @@ li{
     text-align: center;
     text-decoration: none;
     text-transform: none;
- }
-.container{
-    float: right;
-    width: 85%;
-    margin-top: 5px;
-    background-color: aquamarine;
 
+ }
+.pic p{
+    text-align: right;
+ }
+.pic{
+    float: left;
+    width: 25%;
+    margin: 5px;
 }
-img{
+.pic img{
+    border: yellowgreen solid 5px;
     width: 100%;
 }
-.aside{
+.para{
+    margin: 5px;
+    margin-left: 10px;
+    background-color: yellowgreen;
+    float: inline-start;
+    width: 25%;
+}
+.para p{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para span{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para a{
+    text-decoration:solid;
+    color: #000;
+}
+.para a:hover{
+    color: white;
+}
+.para2{
+    clear: both;
+    margin: 5px;
+    float: inline-start;
+    width: 25%;
+    background-color: tomato;
+}
+.para2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para2 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para2 a{
+    text-decoration:solid;
+    color: #000;
+}
+.para2 a:hover{
+    color: #fff;
+}
+.pic2{
+    margin: 5px;
+    float: inline-start;
+    width: 25%;
+    
+}
+.pic2 img{
+    border: tomato solid 5px;
+    width: 100%;
+}
+.pic3 p{
+    text-align: right;
+ }
+.pic3{
+    clear: both;
     float: left;
-    width: 15%;
-    background-color: chocolate;
-    margin-top: 5px;
+    width: 25%;
+    margin: 5px;
+}
+.pic3 img{
+    border: aqua solid 5px;
+    width: 100%;
+}
+.para3{
+    margin: 5px;
+    margin-left: 10px;
+    background-color: aqua;
+    float: inline-start;
+    width: 25%;
+}
+.para3 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para3 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para3 a{
+    text-decoration:solid;
+    color: #000;
+}
+.para3 a:hover{
+    color: white;
+}
+.para4{
+    clear: both;
+    margin: 5px;
+    float: inline-start;
+    width: 25%;
+    background-color: purple;
+}
+.para4 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para4 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para4 a{
+    text-decoration:solid;
+    color: #000;
+}
+.para4 a:hover{
+    color: white;
+}
+.pic4{
+    margin: 5px;
+    float: inline-start;
+    width: 25%;
+}
+.pic4 img{
+    border: purple solid 5px;
+    width: 100%;
+}
+.pic5 p{
+    text-align: right;
+ }
+.pic5{
+    clear: both;
+    float: left;
+    width: 25%;
+    margin: 5px;
+}
+.pic5 img{
+    border: orangered solid 5px;
+    width: 100%;
+}
+.para5{
+    margin: 5px;
+    margin-left: 10px;
+    background-color: orangered;
+    float: inline-start;
+    width: 25%;
+}
+.para5 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para5 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.para5 a{
+    text-decoration:solid;
+    color: #000;
+}
+.para5 a:hover{
+    color: white;
+}
+.aside{
+    float: right;
+    width: 5%;
+    padding: 10px;
+    margin: 5px;
     text-align: center;
 }
+
 .aside ul li{
     align-items: center;
     text-align: center;
-    margin: 80px;
+    margin: 50px;
     width: auto;
     list-style: outside none none;
 }
 .aside ul li a{
-    border: 1px solid #fff;
-    padding: 5px 10px;
     font-size: 20px;
     line-height: 10px;
     transition: .3s;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .aside ul li a:hover{
     cursor: pointer;
@@ -104,159 +239,3 @@ img{
     margin-top: 10px;
     background-color: yellowgreen;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-#header{
-    text-decoration: underline;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 10px;
-    font-size: 16px;
-    border: 2px;
-}
-#text{
-    text-align: center;
-    text-decoration: solid;
-    text-transform: none;
-}
-.lin{
-    background-color: black;
-    padding: 10px;
-}
-.lin ul li{
-    list-style: none;
-    margin: 0 15px;
-}
-.lin ul li .fab{
-    font-size: 15px;
-    line-height: 10px;
-    transition: .3s;
-    color: white;
-}
-.lin ul li a :hover{
-    transform: translate(0, -10%);
-    color: rgb(96, 25, 117);
-}
-lin{
-    padding: 5px;
-}
-ul{
-    padding: 2px;
- }
-li{
-    display: inline-block;
-    width: auto;
-    list-style: outside none none;
-
- }
-.menu{
-    text-align: center;
-    padding: 5px;
-    padding: 5px;
-    text-decoration: none;
-}
-.menu ul li{
-    list-style: none;
-    margin: 0 15px;
-}
-.menu ul li .fa-solid{
-    font-size: 25px;
-    line-height: 10px;
-    transition: .3s;
-    color: black;
-}
-.menu ul li a :hover{
-    transform: translate(0, -10%);
-    color: rgb(96, 25, 117);
-}
-#aside{
-    float: right;
-    padding: 60px;
-    background-color: tomato;
-}
-.body{
-    float: left;
-    width: 70%;
-    text-align: center;
-    font-size: 16px;
-    border: 2px;
-    padding: 0%;
-}
-img{
-    display: block;
-    align-items: center;
-    width: 100%;
-}
-.sub{
-    background-color: brown;
-    margin: 0%;
-    text-align: center;
-    /* float: left;
-    width: 70%; 
-    clear: both;
-}
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.test1{
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.test2{
-    position: absolute;
-    top: 7%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#button1{
-    position: relative;
-    left: 20px;
-   text-align: left;
-}
-.sub1{
-    margin: 0%;
-    text-align: center;
-    /* float: left;
-    width: 70%; 
-    
-    clear: both;
-}
-.rightsub{
-    background-color: tomato;
-    float: right;
-    width: 25%;
-}
-img{
-    position: relative;
-    top: 0px;
-}
-h2{
-
-    text-transform: uppercase;
-}
-h3{
-    text-align: left;
-}  
-.footer{
-    clear: both;
-    background-color: blueviolet;
-} */
