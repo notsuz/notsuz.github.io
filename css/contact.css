@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.contact-container{
+    border: 2px solid black;
+    box-shadow: 5px 20px 20px white;
+}
 body{
     font-family: 'outfit';
    
@@ -11,16 +15,15 @@ img{
     width: 100%;
 }
 .test{
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.953);
     position: absolute;
     top: 2px;
-    left: 22%;
+    left: 15%;
     transform: translate(50%, 30%);
-}
-.contact-container{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 .contact-left{
     display: flex;
