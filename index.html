@@ -3,26 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="icon" href="notsuzlogo.png" https:="" raw.githubusercontent.com="" sujal="" images="" main="" logo21.png"="" type="image/x-form">    <link rel="stylesheet" href="css/contact.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="contact-container">
-        <img src="./css/goku.jpg" alt="">
-        <div class="test">
-             <form action="https://api.web3forms.com/submit" method="POST"" class="contact-left">
-                <div class="contact-left-title">
-                    <h5>Hai ni malai ta bato nai tha xaina teta ko ani incase ma haraye vannye <br> can I get your phone number. please!🥺</h5>
-                    <hr>
+        <div class="main">
+            <input type="checkbox" id="chk" aria-hidden="true">
+            <div class="signup">
+                <form action="">
+                    <label  id="signup" for="chk" aria-hidden="true">Sign-up</label>
+                    <input type="text" name="txt" placeholder="user name" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="password" name="password" placeholder="password" required>
+                    <button>Sign up</button>
+                </form>
                 </div>
-                <input type="hidden" name="access_key" value="762fc3de-f45d-455b-9003-78ba529d70a2">
-            <input type="text" name="Name" placeholder="Your Name" class="contact-inputs" required>
-            <input type="number" name="PhoneNumber" placeholder="Please enter your phone number" class="contact-inputs" required>
-            <textarea name="Message" placeholder="Thankyou very much" class="contact-inputs"></textarea>
-            <button tyoe="Submit">Submit</button>
-        </form>
+
+                <div class="login">
+                    <form action="">
+                        <label id="login" for="chk" aria-hidden="true">Sign-in</label>
+                        <input type="email" name="email" placeholder="email" required>
+                        <input type="password" placeholder="password" name="passwoed" required>
+                        <button>login</button>
+                    </form>
+                </div>
+        
         </div>
 
-   </div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
